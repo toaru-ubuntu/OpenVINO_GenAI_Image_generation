@@ -5,7 +5,7 @@ import sys
 import urllib.request #
 
 # フォルダの設定
-BASE_MODEL_DIR = "./base_model"
+BASE_MODEL_DIR = "./base_models"
 STORAGE_DIR = "./storage"
 MODELS_DIR = "./models"
 

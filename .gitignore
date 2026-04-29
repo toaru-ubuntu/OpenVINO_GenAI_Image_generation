@@ -1,0 +1,16 @@
+# 仮想環境とキャッシュ
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# モデルの重みファイル (容量が大きすぎるため除外)
+bim_vfi/pretrained/
+*.pth
+
+# テスト用の動画・画像データや出力フォルダ
+*.jpg
+*.mp4
+*.mkv
+vip_test_output/
+assets/demo/

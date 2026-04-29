@@ -1,5 +1,10 @@
 #!/bin/bash
 
+git clone https://github.com/toaru-ubuntu/OpenVINO_GenAI_Image_generation.git
+cd OpenVINO_GenAI_Image_generation
+
+mkdir -p base_models
+
 uv venv .venv --python 3.12
 source .venv/bin/activate
 
